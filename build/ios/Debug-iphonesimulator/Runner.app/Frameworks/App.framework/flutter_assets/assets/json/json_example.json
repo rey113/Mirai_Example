@@ -1,0 +1,47 @@
+{
+  "type": "scaffold",
+  "appBar": {
+    "type": "appBar",
+    "title": {
+      "type": "text",
+      "data": "Local Assets",
+      "style": {
+        "color": "#A020F0",
+        "fontSize": 21
+      }
+    }
+  },
+  "body": {
+    "type": "column",
+    "mainAxisAlignment": "center",
+    "crossAxisAlignment": "center",
+    "children": [
+      {
+        "type": "center",
+        "child": {
+          "type": "text",
+          "data": "Ui From Local Json Files",
+          "style": {
+            "color": "#000000",
+            "fontSize": 24.0
+          }
+        }
+      },
+      {
+        "type": "sizedBox",
+        "height": 20.0
+      },
+      {
+        "type": "center",
+        "child": {
+          "type": "text",
+          "data": "assets/json/json_example.json",
+          "style": {
+            "color": "#A020F0",
+            "fontSize": 20.0
+          }
+        }
+      }
+    ]
+  }
+}

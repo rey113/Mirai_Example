@@ -1,0 +1,122 @@
+{
+  "type": "scaffold",
+  "appBar": {
+    "type": "appBar",
+    "title": {
+      "type": "text",
+      "data": "Local Assets",
+      "style": {
+        "color": "#000000",
+        "fontSize": 21
+      }
+    }
+  },
+  "body": {
+    "type": "padding",
+    "padding": {
+      "left": 16,
+      "right": 16
+    },
+    "child": {
+      "type": "column",
+      "mainAxisAlignment": "center",
+      "crossAxisAlignment": "center",
+      "children": [
+        {
+          "type": "text",
+          "data": "Stac Login",
+          "align": "center",
+          "style": {
+            "fontSize": 23,
+            "fontWeight": "w600"
+          }
+        },
+        {
+          "type": "sizedBox",
+          "height": 24
+        },
+        {
+          "type": "textField",
+          "maxLines": 1,
+          "keyboardType": "text",
+          "textInputAction": "done",
+          "textAlign": "start",
+          "textCapitalization": "none",
+          "textDirection": "ltr",
+          "textAlignVertical": "top",
+          "obscureText": false,
+          "decoration": {
+            "hintText": "Your email address",
+            "filled": true,
+            "labelText": "Email"
+          },
+          "autovalidateMode": "onUserInteraction",
+          "readOnly": false,
+          "enabled": true
+        },
+        {
+          "type": "sizedBox",
+          "height": 24
+        },
+        {
+          "type": "textField",
+          "maxLines": 1,
+          "keyboardType": "text",
+          "textInputAction": "done",
+          "textAlign": "start",
+          "textCapitalization": "none",
+          "textDirection": "ltr",
+          "textAlignVertical": "top",
+          "obscureText": true,
+          "decoration": {
+            "filled": true,
+            "suffixIcon": {
+              "type": "icon",
+              "iconType": "cupertino",
+              "icon": "eye",
+              "size": 24
+            },
+            "labelText": "Password*"
+          },
+          "autovalidateMode": "onUserInteraction",
+          "readOnly": false,
+          "enabled": true
+        },
+        {
+          "type": "sizedBox",
+          "height": 30
+        },
+        {
+          "type": "container",
+          "width": 999999.0,
+          "decoration": {
+            "color": "#A020F0",
+            "borderRadius": {
+              "topLeft": 16.0,
+              "topRight": 16.0,
+              "bottomLeft": 16.0,
+              "bottomRight": 16.0
+            }
+          },
+          "child": {
+            "type": "textButton",
+            "child": {
+              "type": "text",
+              "data": "Login",
+              "style": {
+                "color": "#FFFFFF",
+                "fontSize": 24.0
+              }
+            },
+            "onPressed": {
+              "actionType": "navigate",
+              "routeName": "/bottomNav",
+              "navigationStyle": "pushNamed"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+

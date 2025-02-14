@@ -1,0 +1,1 @@
+ /Users/user/StudioProjects/mirai_example/.dart_tool/flutter_build/5e70fb6f4f6689a71a695a835d63aa49/native_assets.yaml: 
